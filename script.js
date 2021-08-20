@@ -24,7 +24,7 @@ for (const elems of buttons) {
 }
 for (const elems of buttons) {
     elems.addEventListener('mouseup', up = () => {
-        elems.style.border = '0px solid #c1c1c1';
+        elems.style.border = '1px solid #c1c1c1';
         elems.style.backgroundColor = '';
     })
 }
